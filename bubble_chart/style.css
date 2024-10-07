@@ -1,0 +1,30 @@
+#header {
+    background: url("images/teesside-logo.png");
+    padding: 20%;
+}
+
+#gallery {
+    padding: 2%;
+}
+
+.card {
+    margin: 10px;
+}
+
+.black-square {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 120px; /* Adjust height as needed */
+    text-align: center;
+    line-height: center; /* Vertical centering of text */
+}
+
+.black-square p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunburst Chart</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body style="background-color: #574657; margin: 0; padding: 0;">   
+             
+    <nav style="background-color: #57103b; padding: 20px;">
+        <div class="container">
+
+            <h5 style="color: white;">Bhargavi Siva Kanagala <br> S3037316 --------------------------------  Exploring the Percentage of Sales Profit Margin Worldwide </h5>
+            <a href="/index.html" > <button type="button" class="btn btn-outline-success btn-sm">Home</button></a>
+        </div>
+    </nav>
+
+    <div style="height: 10px; background-color: chocolate;"></div>
+ 
+    <div style="display: flex; justify-content: space-around;align-items: center;">
+        <h1 style="width: 40vw;"> Exploring the Percentage of Sales Profit Margin Worldwide</h1>
+        <svg width="600" height="600" id="sunburst"></svg>
+    </div>
+    <br>
+    <div style="height: 10px; background-color: chocolate;"></div>
+
+    <script src="data.js"></script>
+    <script>
+    
+    // Set up dimensions
+    const width = 600;
+    const height = 600;
+    const radius = Math.min(width, height)*80;
+    
+    // Generate colors for continents and products
+    const continentColor = d3.scaleOrdinal(d3.schemeCategory10);
+    const productColor = d3.scaleOrdinal(d3.schemeCategory10);
+    
+    // Create SVG container
+    const svg = d3.select("#sunburst")
+      .attr("width", width)
+      .attr("height", height)
+      .append("g")
+      .attr("transform", `translate(${width / 2}, ${height / 2})`);
+    
+    // Format data for continents and products
+    const nestedData = d3.rollup(data, v => v.map(d => ({ ProductCategory: d.ProductCategory, Profit: d.Profit })), d => d.CustomerContinent);
+    const root = d3.hierarchy({ children: Array.from(nestedData, ([continent, products]) => ({ continent, children: products })) })
+      .sum(d => d.Profit || 0);
+    
+    // Create partition layout
+    const partition = d3.partition()
+      .size([2 * Math.PI, radius]);
+    
+    // Compute partition layout
+    partition(root);
+    
+    // Add arcs
+    const arc = d3.arc()
+      .startAngle(d => d.x0)
+      .endAngle(d => d.x1)
+      .innerRadius(d => Math.sqrt(d.y0))
+      .outerRadius(d => Math.sqrt(d.y1));
+    
+    svg.selectAll("path")
+      .data(root.descendants())
+      .enter().append("path")
+      .attr("d", arc)
+      .style("fill", d => d.depth === 1 ? continentColor(d.data.continent) : productColor(d.data.ProductCategory))
+      .on("mouseover", (event, d) => {
+        // Show tooltip
+        if (d.depth === 1) {
+          tooltip.html(`Continent: ${d.data.continent}<br>Total Profit: ${d.value}`)
+            .style("visibility", "visible");
+        } else if (d.depth === 2) {
+          tooltip.html(`Product: ${d.data.ProductCategory}<br>Profit: ${d.value}`)
+            .style("visibility", "visible");
+        }
+        d3.select(event.currentTarget)
+          .style("opacity", 0.7)
+          .attr("transform", `scale(1.1)`);
+      })
+      .on("mousemove", (event) => {
+        // Position tooltip
+        tooltip.style("top", (event.pageY - 10) + "px")
+          .style("left", (event.pageX + 10) + "px");
+      })
+      .on("mouseout", () => {
+        // Hide tooltip
+        tooltip.style("visibility", "hidden");
+        d3.select(event.currentTarget)          
+          .style("opacity", 1)
+          .attr("transform", `scale(1)`);
+      });
+    
+    // Tooltip
+    const tooltip = d3.select("body").append("div")
+      .attr("class", "tooltip")
+      .style("position", "absolute")
+      .style("visibility", "hidden");
+    
+    </script>
+    </body>
+    </html>
+    

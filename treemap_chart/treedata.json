@@ -1,0 +1,168 @@
+{   "name": "Root",
+    "children": [{
+            "name": "Female",
+            "children": [{
+                "name": "automotive",
+                "value": 961647.2
+              },
+              {
+                "name": "baby",
+                "value": 914096.43
+              },
+              {
+                "name": "beauty",
+                "value": 769410.06
+              },
+              {
+                "name": "books",
+                "value": 889881.71
+              },
+              {
+                "name": "clothing",
+                "value": 974122.87
+              },
+              {
+                "name": "computers",
+                "value": 943892.66
+              },
+              {
+                "name": "electronics",
+                "value": 897044.47
+              },
+              {
+                "name": "games",
+                "value": 861138.48
+              },
+              {
+                "name": "garden",
+                "value": 772293.44
+              },
+              {
+                "name": "grocery",
+                "value": 1048396.7
+              },
+              {
+                "name": "health",
+                "value": 931277.1
+              },
+              {
+                "name": "home",
+                "value": 792179.02
+              },
+              {
+                "name": "industrial",
+                "value": 950802.95
+              },
+              {
+                "name": "jewelery",
+                "value": 814443.3
+              },
+              {
+                "name": "kids",
+                "value": 854455.46
+              },
+              {
+                "name": "movies",
+                "value": 946525.5
+              },
+              {
+                "name": "music",
+                "value": 957612.53
+              },
+              {
+                "name": "outdoors",
+                "value": 935943.12
+              },
+              {
+                "name": "shoes",
+                "value": 854769.06
+              },
+              {
+                "name": "sports",
+                "value": 891459.29
+              },
+              {
+                "name": "tools",
+                "value": 931153.38
+              },
+              {
+                "name": "toys",
+                "value": 962335.47
+              }
+              
+
+            ]
+        },
+        {
+            "name": "Male",
+            "children": [{
+                "name": "automotive", "value": 805451.93
+              },
+              {
+                "name": "baby", "value": 883238.08
+              },
+              {
+                "name": "beauty", "value": 924117.06
+              },
+              {
+                "name": "books", "value": 839638.1
+              },
+              {
+                "name": "clothing", "value": 871732.06
+              },
+              {
+                "name": "computers", "value": 1044699.29
+              },
+              {
+                "name": "electronics", "value": 962444.5
+              },
+              {
+                "name": "games", "value": 948275.98
+              },
+              {
+                "name": "garden", "value": 933068.84
+              },
+              {
+                "name": "grocery", "value": 852582.63
+              },
+              {
+                "name": "health", "value": 909996.25
+              },
+              {
+                "name": "home", "value": 951129.3
+              },
+              {
+                "name": "industrial", "value": 1008800.7
+              },
+              {
+                "name": "jewelery", "value": 922314.46
+              },
+              {
+                "name": "kids", "value": 847947.32
+              },
+              {
+                "name": "movies", "value": 939615.03
+              },
+              {
+                "name": "music", "value": 930108.33
+              },
+              {
+                "name": "outdoors", "value": 856649.45
+              },
+              {
+                "name": "shoes", "value": 802771.31
+              },
+              {
+                "name": "sports", "value": 874158.4
+              },
+              {
+                "name": "tools", "value": 978087.63
+              },
+              {
+                "name": "toys", "value": 888516.15
+              }
+              
+            ]
+        }
+    ]
+}

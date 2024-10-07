@@ -1,0 +1,38 @@
+.tooltip {
+    position: absolute;
+    background-color: rgba(80, 79, 79);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+    pointer-events: none; /* Ensure the tooltip doesn't interfere with mouse events */
+    z-index: 999; /* Ensure the tooltip appears on top of other elements */
+}
+
+.dimmed {
+    opacity: 0.5;
+}
+
+.legend {
+    position: absolute;
+    top: 250px;
+    right: 250px;
+}
+
+.legend-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.legend-label {
+    font-size: 50px;
+}

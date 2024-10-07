@@ -1,0 +1,345 @@
+[
+ {
+   "country": "Gambia",
+   "total_quantity_sold": 427,
+   "total_sales_price": 209280.03,
+   "total_product_price": 35716,
+   "continent": "Africa"
+ },
+ {
+   "country": "Ghana",
+   "total_quantity_sold": 262,
+   "total_sales_price": 251723.65,
+   "total_product_price": 34429,
+   "continent": "Africa"
+ },
+ {
+   "country": "Ivory Coast",
+   "total_quantity_sold": 484,
+   "total_sales_price": 233157.33,
+   "total_product_price": 40845,
+   "continent": "Africa"
+ },
+ {
+   "country": "Kenya",
+   "total_quantity_sold": 390,
+   "total_sales_price": 192897.49,
+   "total_product_price": 27960,
+   "continent": "Africa"
+ },
+ {
+   "country": "Mali",
+   "total_quantity_sold": 101,
+   "total_sales_price": 58447.41,
+   "total_product_price": 36448,
+   "continent": "Africa"
+ },
+ {
+   "country": "Namibia",
+   "total_quantity_sold": 207,
+   "total_sales_price": 122615.4,
+   "total_product_price": 32423,
+   "continent": "Africa"
+ },
+ {
+   "country": "Nigeria",
+   "total_quantity_sold": 340,
+   "total_sales_price": 228913.99,
+   "total_product_price": 30968,
+   "continent": "Africa"
+ },
+ {
+   "country": "Senegal",
+   "total_quantity_sold": 320,
+   "total_sales_price": 121619.6,
+   "total_product_price": 22024,
+   "continent": "Africa"
+ },
+ {
+   "country": "South Africa",
+   "total_quantity_sold": 329,
+   "total_sales_price": 155783.45,
+   "total_product_price": 28461,
+   "continent": "Africa"
+ },
+ {
+   "country": "Zambia",
+   "total_quantity_sold": 173,
+   "total_sales_price": 86400.5,
+   "total_product_price": 34279,
+   "continent": "Africa"
+ },
+ {
+   "country": "Antarctica",
+   "total_quantity_sold": 435,
+   "total_sales_price": 226211.17,
+   "total_product_price": 29411,
+   "continent": "Antartica"
+ },
+ {
+   "country": "Bouvet Island",
+   "total_quantity_sold": 369,
+   "total_sales_price": 178211.2,
+   "total_product_price": 34191,
+   "continent": "Antartica"
+ },
+ {
+   "country": "French Southern Territories",
+   "total_quantity_sold": 250,
+   "total_sales_price": 178600.49,
+   "total_product_price": 32046,
+   "continent": "Antartica"
+ },
+ {
+   "country": "Heard Island and McDonald Islands",
+   "total_quantity_sold": 234,
+   "total_sales_price": 71539.37,
+   "total_product_price": 30056,
+   "continent": "Antartica"
+ },
+ {
+   "country": "South Georgia and the South Sandwich Islands",
+   "total_quantity_sold": 204,
+   "total_sales_price": 147982.78,
+   "total_product_price": 26912,
+   "continent": "Antartica"
+ },
+ {
+   "country": "Argentina",
+   "total_quantity_sold": 136,
+   "total_sales_price": 48156.11,
+   "total_product_price": 23465,
+   "continent": "South America"
+ },
+ {
+   "country": "Bolivia",
+   "total_quantity_sold": 423,
+   "total_sales_price": 202782.61,
+   "total_product_price": 37172,
+   "continent": "South America"
+ },
+ {
+   "country": "Brazil",
+   "total_quantity_sold": 290,
+   "total_sales_price": 155363.15,
+   "total_product_price": 30674,
+   "continent": "South America"
+ },
+ {
+   "country": "Paraguay",
+   "total_quantity_sold": 277,
+   "total_sales_price": 130517.13,
+   "total_product_price": 30691,
+   "continent": "South America"
+ },
+ {
+   "country": "Peru",
+   "total_quantity_sold": 378,
+   "total_sales_price": 221785.45,
+   "total_product_price": 34920,
+   "continent": "South America"
+ },
+ {
+   "country": "Suriname",
+   "total_quantity_sold": 479,
+   "total_sales_price": 170279.1,
+   "total_product_price": 34184,
+   "continent": "South America"
+ },
+ {
+   "country": "Uruguay",
+   "total_quantity_sold": 157,
+   "total_sales_price": 140207.44,
+   "total_product_price": 29173,
+   "continent": "South America"
+ },
+ {
+   "country": "Venezuela",
+   "total_quantity_sold": 423,
+   "total_sales_price": 150934.73,
+   "total_product_price": 27599,
+   "continent": "South America"
+ },
+ {
+   "country": "Australia",
+   "total_quantity_sold": 371,
+   "total_sales_price": 169303.1,
+   "total_product_price": 31750,
+   "continent": "Oceania"
+ },
+ {
+   "country": "Cook Islands",
+   "total_quantity_sold": 201,
+   "total_sales_price": 110444.74,
+   "total_product_price": 24957,
+   "continent": "Oceania"
+ },
+ {
+   "country": "Palau",
+   "total_quantity_sold": 300,
+   "total_sales_price": 125820.08,
+   "total_product_price": 28120,
+   "continent": "Oceania"
+ },
+ {
+   "country": "Samoa",
+   "total_quantity_sold": 317,
+   "total_sales_price": 143581.6,
+   "total_product_price": 29627,
+   "continent": "Oceania"
+ },
+ {
+   "country": "Bahamas",
+   "total_quantity_sold": 185,
+   "total_sales_price": 23836.2,
+   "total_product_price": 28553,
+   "continent": "North America"
+ },
+ {
+   "country": "Costa Rica",
+   "total_quantity_sold": 335,
+   "total_sales_price": 91883.28,
+   "total_product_price": 25998,
+   "continent": "North America"
+ },
+ {
+   "country": "Greenland",
+   "total_quantity_sold": 452,
+   "total_sales_price": 185722.23,
+   "total_product_price": 33383,
+   "continent": "North America"
+ },
+ {
+   "country": "Haiti",
+   "total_quantity_sold": 386,
+   "total_sales_price": 162442.37,
+   "total_product_price": 33280,
+   "continent": "North America"
+ },
+ {
+   "country": "Mexico",
+   "total_quantity_sold": 311,
+   "total_sales_price": 175219.34,
+   "total_product_price": 35357,
+   "continent": "North America"
+ },
+ {
+   "country": "Puerto Rico",
+   "total_quantity_sold": 419,
+   "total_sales_price": 256875.3,
+   "total_product_price": 30789,
+   "continent": "North America"
+ },
+ {
+   "country": "United States",
+   "total_quantity_sold": 402,
+   "total_sales_price": 215861.79,
+   "total_product_price": 37538,
+   "continent": "North America"
+ },
+ {
+   "country": "China",
+   "total_quantity_sold": 325,
+   "total_sales_price": 136271.05,
+   "total_product_price": 23303,
+   "continent": "Asia"
+ },
+ {
+   "country": "Hong Kong",
+   "total_quantity_sold": 218,
+   "total_sales_price": 100626.66,
+   "total_product_price": 27079,
+   "continent": "Asia"
+ },
+ {
+   "country": "India",
+   "total_quantity_sold": 495,
+   "total_sales_price": 230908.31,
+   "total_product_price": 39744,
+   "continent": "Asia"
+ },
+ {
+   "country": "Kuwait",
+   "total_quantity_sold": 263,
+   "total_sales_price": 196738.88,
+   "total_product_price": 32676,
+   "continent": "Asia"
+ },
+ {
+   "country": "Maldives",
+   "total_quantity_sold": 372,
+   "total_sales_price": 175371.48,
+   "total_product_price": 34435,
+   "continent": "Asia"
+ },
+ {
+   "country": "Singapore",
+   "total_quantity_sold": 105,
+   "total_sales_price": 75067.75,
+   "total_product_price": 11224,
+   "continent": "Asia"
+ },
+ {
+   "country": "South Korea",
+   "total_quantity_sold": 432,
+   "total_sales_price": 265347.64,
+   "total_product_price": 39779,
+   "continent": "Asia"
+ },
+ {
+   "country": "Sri Lanka",
+   "total_quantity_sold": 310,
+   "total_sales_price": 84403.3,
+   "total_product_price": 22270,
+   "continent": "Asia"
+ },
+ {
+   "country": "Denmark",
+   "total_quantity_sold": 348,
+   "total_sales_price": 148548.07,
+   "total_product_price": 34008,
+   "continent": "Europe"
+ },
+ {
+   "country": "France",
+   "total_quantity_sold": 284,
+   "total_sales_price": 129318.81,
+   "total_product_price": 27152,
+   "continent": "Europe"
+ },
+ {
+   "country": "Germany",
+   "total_quantity_sold": 367,
+   "total_sales_price": 83986.27,
+   "total_product_price": 32008,
+   "continent": "Europe"
+ },
+ {
+   "country": "Hungary",
+   "total_quantity_sold": 490,
+   "total_sales_price": 214535.43,
+   "total_product_price": 37243,
+   "continent": "Europe"
+ },
+ {
+   "country": "Italy",
+   "total_quantity_sold": 258,
+   "total_sales_price": 80988.25,
+   "total_product_price": 35619,
+   "continent": "Europe"
+ },
+ {
+   "country": "Jersey",
+   "total_quantity_sold": 132,
+   "total_sales_price": 124068.78,
+   "total_product_price": 22754,
+   "continent": "Europe"
+ },
+ {
+   "country": "United Kingdom",
+   "total_quantity_sold": 318,
+   "total_sales_price": 197813.03,
+   "total_product_price": 29400,
+   "continent": "Europe"
+ }
+]
